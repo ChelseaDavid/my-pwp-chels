@@ -1,10 +1,19 @@
 <!DOCTYPE html>
+<!-- Opening html -->
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
 		<title>PWP Milestone 1</title>
 	</head>
 	<body>
+		<!--This will be my Purpose, Audience, and Goals -->
+		<h4><strong>Purpose</strong></h4>
+		<p>to begin a role in web development where I can utilize my recent school training to better my skills with a structured organization that will allow for future growth.</p>
+		<h4><strong>Audience</strong></h4>
+		<p>This site is designed with a professional audience in mind, and is aimed toward individuals within the tech community nationwide. My target audience will be hiring managers, recruiters, and peers.</p>
+		<h4><strong>Goal:</strong></h4>
+		<p>To obtain full or part-time employment</p>
+		<!-- This will be the Persona -->
 		<h1><strong>Persona</strong></h1>
 		<h2>Angela Peppercorn</h2>
 		<img src="peppercorn.jpg" alt="A Picture of Wendy Peppercorn">
