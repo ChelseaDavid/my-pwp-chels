@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>PWP Milestone 1</title>
+	</head>
+	<body>
+		<h1><strong>Persona</strong></h1>
+		<h2>Angela Peppercorn</h2>
+		<img src="peppercorn.jpg" alt="A Picture of Wendy Peppercorn">
+		<ul>
+			<li><strong>Name:</strong>Angela Peppercorn</li>
+			<li><strong>Age:</strong>38</li>
+			<li><strong>Profession:</strong>Recruiter for a national web development corporation<br>
+				looking for fresh local talent with skills in both front and backend development</li>
+			<li><strong>Relation to the Tech Community:</strong> Strong </li>
+		</ul>
+		<h4><strong>Technology:</strong></h4>
+		<ul>
+			<li>IPhoneX 256 GB</li>
+			<li>Microsoft Surface Pro 12.3″ - Core i5 7300U 2.6 GHz - 8 GB RAM - 256 GB SSD</li>
+			<li>Dell Inspiron Desktop (Intel ) w/ Intel Core - 8GB - 16GB - Windows 10 Home</li>
+		</ul>
+
+		<h4><strong>Attitudes and Behaviors:</strong></h4>
+			<p>Angela looks at dozens of possible candidates through-out her day<br>
+			and is highly experienced in what she is looking for in a junior to mid-level associate.<br>
+			Angela is constantly checking social media sites, networking events, and personal website projects<br>
+			for the next great investment in her team.Because of this, Angela doesn't tend to spend much time<br>
+			browsing through each site.</p>
+
+		<h4><strong>Frustrations and Needs:</strong></h4>
+		<p>Angela does not appreciate having her time wasted. Angela wants to be able to browse a site<br>
+		or candidates information quickly and efficiently without all the clutter and lag. </p>
+
+			<h4><strong>Goals:</strong></h4>
+		<p>To find a reliable, hardworking developer who can relay efficiency and technique through the art <br>
+		of web</p>
+
+			<h4><strong>User Story:</strong></h4>
+			<p>As a user, I need to determine quickly whether this person is<br>
+			a candidate for the mid-level Back End Web Developer position. </p>
+	</body>
+</html>
