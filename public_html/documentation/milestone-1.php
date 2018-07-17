@@ -8,9 +8,13 @@
 	<body>
 		<!--This will be my Purpose, Audience, and Goals -->
 		<h4><strong>Purpose</strong></h4>
-		<p>to begin a role in web development where I can utilize my recent school training to better my skills with a structured organization that will allow for future growth.</p>
+		<p>to begin a role in web development where I can utilize my recent school<br>
+			training to better my skills with a structured organization that will allow<br>
+			for future growth.</p>
 		<h4><strong>Audience</strong></h4>
-		<p>This site is designed with a professional audience in mind, and is aimed toward individuals within the tech community nationwide. My target audience will be hiring managers, recruiters, and peers.</p>
+		<p>This site is designed with a professional audience in mind, and is aimed toward <br>
+			individuals within the tech community nationwide. My target audience will be <br>
+			hiring managers, recruiters, and peers.</p>
 		<h4><strong>Goal:</strong></h4>
 		<p>To obtain full or part-time employment</p>
 		<!-- This will be the Persona -->
@@ -36,10 +40,10 @@
 			and is highly experienced in what she is looking for in a junior to mid-level associate.<br>
 			Angela is constantly checking social media sites, networking events, and personal website projects<br>
 			for the next great investment in her team.Because of this, Angela doesn't tend to spend much time<br>
-			browsing through each site.</p>
+			browsing through each application.</p>
 
 		<h4><strong>Frustrations and Needs:</strong></h4>
-		<p>Angela does not appreciate having her time wasted. Angela wants to be able to browse a site<br>
+		<p>Angela does not appreciate having her time wasted. Angela wants to be able to browse an application<br>
 		or candidates information quickly and efficiently without all the clutter and lag. </p>
 
 			<h4><strong>Goals:</strong></h4>
