@@ -52,6 +52,6 @@
 
 			<h4><strong>User Story:</strong></h4>
 			<p>As a user, I need to determine quickly whether this person is<br>
-			a candidate for the mid-level Back End Web Developer position. </p>
+			a candidate for the mid-level Front End Web Developer position. </p>
 	</body>
 </html>
