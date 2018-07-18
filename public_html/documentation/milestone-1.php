@@ -49,7 +49,7 @@
 			<h4><strong>Goals:</strong></h4>
 		<p>To find a reliable, hardworking developer who can relay efficiency and technique through the art <br>
 		of web</p>
-
+<!-- This will be user story -->
 			<h4><strong>User Story:</strong></h4>
 			<p>As a user, I need to determine quickly whether this person is<br>
 			a candidate for the mid-level Front End Web Developer position. </p>
