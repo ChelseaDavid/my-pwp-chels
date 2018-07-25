@@ -1,7 +1,7 @@
 # my-pwp-chels
 this will serve as my digital business card
 
-# Chelsea
+# Milestone 1
 ## Specifications
 Great job on Milestone1, you met all the required specifications laid out in the documentation. The HTML is impeccable and the directory structure matches what was outlined. your content is straight foreword and i am easily able to tell who your target demographic is.
 ## Feedback
