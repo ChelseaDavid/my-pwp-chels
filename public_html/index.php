@@ -65,5 +65,14 @@
 					</ul>
 				</div>
 			</nav>
+
+		<!--first parallax section -->
+		<section class="parallax-content"">
+		<div class="parallax">
+			<div class="jumbotron bg-transparent text-center" id="welcome">
+				<h1>Thanks for Stopping by!</h1>
+			</div>
+		</div>
+		</section>
 	</body>
 </html>
