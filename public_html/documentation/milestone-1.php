@@ -20,7 +20,7 @@
 		<!-- This will be the Persona -->
 		<h1><strong>Persona</strong></h1>
 		<h2>Angela Peppercorn</h2>
-		<img src="images/peppercorn.jpg" alt="A Picture of Wendy Peppercorn">
+		<img src="../images/peppercorn.jpg" alt="A Picture of Wendy Peppercorn">
 		<ul>
 			<li><strong>Name:</strong>Angela Peppercorn</li>
 			<li><strong>Age:</strong>38</li>

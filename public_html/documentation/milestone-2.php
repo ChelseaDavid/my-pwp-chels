@@ -41,6 +41,6 @@
 <!-- Example picture of wire-frame -->
 	<h3>Wireframe</h3>
 
-	<img src="../documentation/images/pwpwireframe.png" alt="Wire frame layout">
+	<img src="../images/pwpwireframe.png" alt="Wire frame layout">
 
 </html> 
