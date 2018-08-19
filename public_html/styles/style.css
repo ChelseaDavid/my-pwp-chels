@@ -1,0 +1,148 @@
+#welcome {
+	margin-top: 15rem;
+}
+
+.jumbotron {
+	color: white;
+	text-shadow: #000 2px 2px;
+}
+
+.lead {
+	font-weight: 600;
+}
+
+#top-of-page {
+	position: fixed;
+}
+
+p {
+	font-weight: 500;
+}
+
+section {
+	background-color: white;
+	color: black;
+}
+
+#about {
+	text-align: center;
+}
+
+
+label {
+	display:block;
+	margin-top:20px;
+	letter-spacing:2px;
+}
+
+input {
+	display: block;
+}
+
+textarea {
+	display: block;
+}
+
+#about-image {
+	width: 10rem;
+	border-radius: 50%;
+	padding-top: 3rem;
+}
+
+#howdy {
+	margin: 1em;
+}
+
+/*Parallax background effects*/
+.parallax-content {
+	position: relative;
+	overflow: hidden;
+	height: 80vh;
+	-webkit-background-size: cover;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+
+.parallax {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+}
+
+.parallax:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	background-size: 100% 100%;
+	background-position: center top;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+#rc-imageselect, .g-recaptcha {
+	transform:scale(0.77);
+	-webkit-transform:scale(0.77);
+	transform-origin:0 0;
+	-webkit-transform-origin:0
+}
+
+
+/* xs to lg*/
+@media(min-width: 769px) {
+
+	.parallax-content {
+		background-image: url("../images/tupac.jpg");
+
+	}
+
+	.parallax-content2 {
+		background-image: url("../images/pinkpastel.png");
+	}
+
+	.parallax-content3 {
+		background-image: url("../images/tealpastel.png");
+	}
+
+	.parallax-content4 {
+		background-image: url("../images/yellowpastel.png");
+	}
+}
+
+/* xs to 0 */
+@media(max-width: 768px){
+	.parallax-content .parallax:before{
+		background-image: url("../images/tupac.jpg");
+	}
+
+	.parallax-content2 .parallax:before{
+		background-image: url("../images/pinkpastel.png");
+	}
+
+	.parallax-content3 .parallax:before{
+		background-image: url("../images/tealpastel.png");
+	}
+
+	.parallax-content4 .parallax:before{
+		background-image: url("../images/yellowpastel.png");
+	}
+
+	#howdy{
+		height: 20vh;
+		width: 20vh;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	img[class*="col-"] {
+		padding: 0 !important;
+	}
+}

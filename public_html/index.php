@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Chelsea David</title>
 		<!-- link to css stylesheet -->
-		<link rel="stylesheet" href="style/style.css" type="text/css"/>
+		<link rel="stylesheet" href="styles/style.css" type="text/css"/>
 
 		<!-- link to jQuery stylesheet -->
 
@@ -23,18 +23,12 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 		<!-- java script link -->
-		<script src="scripts/main.js"></script>
+		<script src="scripts/script.js"></script>
 	</head>
 	<body>
 
 		<!--NavBar-->
 		<nav class="navbar fixed-top navbar-default navbar-expand-md navbar-light bg-light" id="top-of-page">
-			<!-- Just an image -->
-			<nav class="navbar">
-				<a class="navbar-brand">
-					<img src="images/smile.png" width="70" height="70" alt="smile bg-light">
-				</a>
-				</nav>
 				<a class="navbar-brand" href="index.php">Chelsea David</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -73,6 +67,29 @@
 				<h1>Thanks for Stopping by!</h1>
 			</div>
 		</div>
+		</section>
+
+		<!-- about Chelsea David -->
+		<section class="container" id="about">
+			<div class="row" style="justify-content: center">
+				<div class="col-sm-12 col-md-4 about-me ">
+					<img class="img-fluid" src="./images/about_chels.JPG" alt="Chelsea David" id="about-image"></div>
+						<div class="col-sm-12 col-md-4">
+								<h2>About Me</h2>
+
+								<p>Hello! My name is Chelsea David and I am an aspiring  full-stack web developer in Albuquerque, NM.
+									Prior to becoming a full-stack web developer, my time was spent in the world of construction and
+									interior design, and in making the career shift, I learned 2 things about myself.
+
+									The first is that I embrace change and adapt to my surroundings very well.
+
+									The second is that I enjoy building things from the ground up.
+
+									Please browse through my portfolio and feel free to contact me with any questions,projects,
+									or concerns you may have.  I can’t wait to see what we can build together!
+								</p>
+							</div>
+					</div>
 		</section>
 	</body>
 </html>
