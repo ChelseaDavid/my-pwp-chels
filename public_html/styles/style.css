@@ -136,16 +136,16 @@ textarea {
 @media(min-width: 769px) {
 
 	.parallax-content {
-		background-image: url("../images/sanfran.jpg");
+		background-image: url("../images/bright3.jpg");
 
 	}
 
 	.parallax-content2 {
-		background-image: url("../images/bright3.jpg");
+		background-image: url("../images/bright.jpg");
 	}
 
 	.parallax-content3 {
-		background-image: url("../images/single.jpeg");
+		background-image: url("../images/bright.jpg");
 	}
 
 	.parallax-content4 {
@@ -153,22 +153,22 @@ textarea {
 	}
 
 	.parallax-content5 {
-		background-image: url("../images/brght4.jpg");
+		background-image: url("../images/bright.jpg");
 	}
 }
 
 /* xs to 0 */
 @media(max-width: 768px){
 	.parallax-content .parallax:before{
-		background-image: url("../images/sanfran.jpg");
-	}
-
-	.parallax-content2 .parallax:before{
 		background-image: url("../images/bright3.jpg");
 	}
 
+	.parallax-content2 .parallax:before{
+		background-image: url("../images/bright.jpg");
+	}
+
 	.parallax-content3 .parallax:before{
-		background-image: url("../images/single.jpeg");
+		background-image: url("../images/bright.jpg");
 	}
 
 	.parallax-content4 .parallax:before{
@@ -176,7 +176,7 @@ textarea {
 	}
 
 	.parallax-content5 .parallax:before{
-		background-image: url("../images/brght4.jpg");
+		background-image: url("../images/bright.jpg");
 	}
 
 	#howdy{
