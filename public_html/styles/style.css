@@ -64,6 +64,16 @@ textarea {
 	background-position: center center;
 }
 
+/*Parallax background effects*/
+.parallax-content2 {
+	position: relative;
+	overflow: hidden;
+	height: 80vh;
+	-webkit-background-size: cover;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-position: center center;
+}
 
 .parallax {
 	position: absolute;
@@ -100,39 +110,39 @@ textarea {
 @media(min-width: 769px) {
 
 	.parallax-content {
-		background-image: url("../images/tupac.jpg");
+		background-image: url("../images/bright3.jpg");
 
 	}
 
 	.parallax-content2 {
-		background-image: url("../images/pinkpastel.png");
+		background-image: url("../images/bright.jpg");
 	}
 
 	.parallax-content3 {
-		background-image: url("../images/tealpastel.png");
+		background-image: url("../images/purple3.jpg");
 	}
 
 	.parallax-content4 {
-		background-image: url("../images/yellowpastel.png");
+		background-image: url("../images/purple3.jpg");
 	}
 }
 
 /* xs to 0 */
 @media(max-width: 768px){
 	.parallax-content .parallax:before{
-		background-image: url("../images/tupac.jpg");
+		background-image: url("../images/bright3.jpg");
 	}
 
 	.parallax-content2 .parallax:before{
-		background-image: url("../images/pinkpastel.png");
+		background-image: url("../images/bright.jpg");
 	}
 
 	.parallax-content3 .parallax:before{
-		background-image: url("../images/tealpastel.png");
+		background-image: url("../images/purple3.jpg");
 	}
 
 	.parallax-content4 .parallax:before{
-		background-image: url("../images/yellowpastel.png");
+		background-image: url("../images/purple3.jpg");
 	}
 
 	#howdy{

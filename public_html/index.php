@@ -91,5 +91,46 @@
 							</div>
 					</div>
 		</section>
+
+		<!-- parallax second section -->
+		<div class="parallax-content parallax-content2">
+			<div class="parallax">
+				<div class="jumbotron bg-transparent text-left">
+					<h1>Languages I have learned</h1>
+				</div>
+			</div>
+		</div>
+		<!-- Languages I know -->
+		<section class="p-5 solid mt-0" id="languages">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-12 text-center">
+						<h2>Operating primarily with Linux and Windows, I have learned to code in...</h2>
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-lg-12 m-3">
+
+									<img src="images/angular-brands%20(1).jpg" class="col-md-2 col-lg-2" alt="angular logo">
+									<img src="images/mysql.png" class="col-md-2 col-lg-2" alt="mysql logo">
+									<img src="images/php.png" class="col-md-2 col-lg-2" alt="php logo">
+
+								</div>
+							</div>
+						</div>
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-lg-12 m-3">
+									<img src="images/html5-brands.jpg" class="col-md-2" alt="html logo">
+									<img src="images/css3-alt-brands.jpg" class="col-md-2" alt="css logo">
+									<img src="images/js.jpg" class="col-md-2" alt="javascript logo">
+									<img src="images/bootstrap.png" class="col-md-2" alt="bootstrap logo">
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
 	</body>
 </html>
