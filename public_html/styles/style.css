@@ -19,6 +19,11 @@ p {
 	font-weight: 500;
 }
 
+.languages-icons {
+	justify-content: center;
+	display: contents;
+}
+
 section {
 	background-color: white;
 	color: black;
@@ -75,6 +80,27 @@ textarea {
 	background-position: center center;
 }
 
+/*Parallax background effects*/
+.parallax-content3 {
+	position: relative;
+	overflow: hidden;
+	height: 80vh;
+	-webkit-background-size: cover;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-position: center center;
+}
+/*Parallax background effects*/
+.parallax-content3 {
+	position: relative;
+	overflow: hidden;
+	height: 80vh;
+	-webkit-background-size: cover;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
 .parallax {
 	position: absolute;
 	top: 0;
@@ -119,11 +145,11 @@ textarea {
 	}
 
 	.parallax-content3 {
-		background-image: url("../images/purple3.jpg");
+		background-image: url("../images/bright.jpg");
 	}
 
 	.parallax-content4 {
-		background-image: url("../images/purple3.jpg");
+		background-image: url("../images/bright.jpg");
 	}
 }
 
@@ -138,11 +164,11 @@ textarea {
 	}
 
 	.parallax-content3 .parallax:before{
-		background-image: url("../images/purple3.jpg");
+		background-image: url("../images/bright.jpg");
 	}
 
 	.parallax-content4 .parallax:before{
-		background-image: url("../images/purple3.jpg");
+		background-image: url("../images/bright.jpg");
 	}
 
 	#howdy{

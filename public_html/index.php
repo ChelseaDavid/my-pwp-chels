@@ -39,6 +39,9 @@
 							<a class="nav-link" href="#about" >About</a>
 						</li>
 						<li class="nav-item">
+							<a class="nav-link" href="#portfolio">Portfolio</a>
+						</li>
+						<li class="nav-item">
 							<a class="nav-link" href="#languages">Languages</a>
 						</li>
 						<li class="nav-item">
@@ -96,6 +99,45 @@
 		<div class="parallax-content parallax-content2">
 			<div class="parallax">
 				<div class="jumbotron bg-transparent text-left">
+					<h1>Portfolio</h1>
+				</div>
+			</div>
+		</div>
+
+		<!-- My Portfolio -->
+		<section class="p-5 solid mt-0" id="portfolio">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-12 text-center">
+						<h2>Please take a moment to check out some of my work</h2>
+						<div class="container-fluid">
+							<section class="container-fluid">
+								<div class="row justify-content-center">
+									<div class="card col-sm-3">
+										<img class="card-img-top" src="images/nn.png" alt="Nerd Nook">
+										<div class="card-body">
+											<h4 class="card-title">Nerd Nook!</h4>
+											<p class="card-text">
+												Really Hagrid if you are holding out for universal popularity Im afraid you
+												will be in this cabin for a very long time The things we lose always have a
+												way of coming back to us in the end It takes a great deal of bravery to stand
+												up to our enemies but just as much to stand up to our friends You sort of start
+												thinking anythings possible if youve got enough nerve I think Ill just go and have
+												some pudding It matters not what someone is born but what they grow to be Hermione
+												Granger Yer a wizard Harry Yer a wizard Harry.
+											</p>
+											<a href="https://bootcamp-coders.cnm.edu/~cryan17/nerd-nook/epic/" class="btn btn-primary">Go to the Nook</a>
+										</div>
+									</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- parallax second section -->
+		<div class="parallax-content parallax-content3">
+			<div class="parallax">
+				<div class="jumbotron bg-transparent text-left">
 					<h1>Languages I have learned</h1>
 				</div>
 			</div>
@@ -104,15 +146,15 @@
 		<section class="p-5 solid mt-0" id="languages">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-12 text-center">
-						<h2>Operating primarily with Linux and Windows, I have learned to code in...</h2>
+					<div class="col-xs-12 text-center languages-icons">
+						<h2>Operating on Linux, the technologies I have used are...</h2>
 						<div class="container-fluid">
 							<div class="row">
 								<div class="col-lg-12 m-3">
 
-									<img src="images/angular-brands%20(1).jpg" class="col-md-2 col-lg-2" alt="angular logo">
-									<img src="images/mysql.png" class="col-md-2 col-lg-2" alt="mysql logo">
-									<img src="images/php.png" class="col-md-2 col-lg-2" alt="php logo">
+									<img src="images/angular-brands%20(1).jpg" class="col-md-1 col-lg-1" alt="angular logo">
+									<img src="images/mysql.png" class="col-md-1 col-lg-1" alt="mysql logo">
+									<img src="images/php.png" class="col-md-1 col-lg-1" alt="php logo">
 
 								</div>
 							</div>
@@ -120,10 +162,10 @@
 						<div class="container-fluid">
 							<div class="row">
 								<div class="col-lg-12 m-3">
-									<img src="images/html5-brands.jpg" class="col-md-2" alt="html logo">
-									<img src="images/css3-alt-brands.jpg" class="col-md-2" alt="css logo">
-									<img src="images/js.jpg" class="col-md-2" alt="javascript logo">
-									<img src="images/bootstrap.png" class="col-md-2" alt="bootstrap logo">
+									<img src="images/html5-brands.jpg" class="col-md-1" alt="html logo">
+									<img src="images/css3-alt-brands.jpg" class="col-md-1" alt="css logo">
+									<img src="images/js.jpg" class="col-md-1" alt="javascript logo">
+									<img src="images/bootstrap.png" class="col-md-1" alt="bootstrap logo">
 								</div>
 							</div>
 						</div>
