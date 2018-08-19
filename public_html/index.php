@@ -202,8 +202,11 @@
 		</section>
 			<!--	Constant Footer information	-->
 		<div class="footer bg-dark">
-			<a href="https://www.linkedin.com/in/chelseadavid36/"><img src="images/linkedin-letters.png"></a>
-			<a href="https://github.com/chelseadavid"><img src="images/github-logo%20(2).png"></a><p class="goodbye">Thanks for stopping by!</p>
+			<a href="https://www.linkedin.com/in/chelseadavid36/">
+				<img src="images/linkedin-letters.png" alt="LinkedIn logo"></a>
+			<a href="https://github.com/chelseadavid">
+				<img src="images/github-logo%20(2).png" alt="Github logo"></a>
+			<p class="goodbye">Thanks for stopping by!</p>
 		</div
 	</body>
 </html>
