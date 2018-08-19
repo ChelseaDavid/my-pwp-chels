@@ -1,5 +1,5 @@
 <!DOCTYPE>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 	<head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -130,7 +130,7 @@
 			</div>
 		</section>
 
-		<!-- parallax second section -->
+		<!-- parallax third section -->
 		<div class="parallax-content parallax-content3">
 			<div class="parallax">
 				<div class="jumbotron bg-transparent text-left">
@@ -165,10 +165,14 @@
 								</div>
 							</div>
 						</div>
-
 					</div>
 				</div>
 			</div>
 		</section>
+			<!--	Constant Footer information	-->
+		<div class="footer bg-dark">
+			<a href="https://www.linkedin.com/in/chelseadavid36/"><img src="images/linkedin-letters.png"></a>
+			<a href="https://github.com/chelseadavid"><img src="images/github-logo%20(2).png"></a><p class="goodbye">Thanks for stopping by!</p>
+		</div
 	</body>
 </html>

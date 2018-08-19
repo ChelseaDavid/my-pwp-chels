@@ -182,3 +182,15 @@ textarea {
 		padding: 0 !important;
 	}
 }
+	.footer {
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		color: white;
+		text-align: center;
+	}
+
+	.goodbye {
+		margin: 0;
+	}
