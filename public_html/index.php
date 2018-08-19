@@ -169,6 +169,37 @@
 				</div>
 			</div>
 		</section>
+
+			<!--	parallax fourth section	-->
+		<div class="parallax-content parallax-content4">
+			<div class="parallax">
+				<div class="jumbotron bg-transparent text-left">
+					<h1>Skills I have acquired over time</h1>
+				</div>
+			</div>
+		</div>
+
+
+		<section class="p-5 solid mt-0" id="skills">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-md-8 col-lr-6">
+						<h2>Skills</h2>
+						<ul>
+							<li>Great Team Management skills</li>
+							<li>Excellent Customer Service Skills</li>
+							<li>Extreme Attention to Detail</li>
+							<li>Precision Time Management</li>
+							<li>Critical Thinking</li>
+							<li>Self Sufficient</li>
+							<li>Proficient Problem Solving</li>
+							<li>Public Speaking</li>
+							<li>"Clicker"</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
 			<!--	Constant Footer information	-->
 		<div class="footer bg-dark">
 			<a href="https://www.linkedin.com/in/chelseadavid36/"><img src="images/linkedin-letters.png"></a>
