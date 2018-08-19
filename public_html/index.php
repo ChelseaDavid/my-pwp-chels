@@ -118,13 +118,9 @@
 										<div class="card-body">
 											<h4 class="card-title">Nerd Nook!</h4>
 											<p class="card-text">
-												Really Hagrid if you are holding out for universal popularity Im afraid you
-												will be in this cabin for a very long time The things we lose always have a
-												way of coming back to us in the end It takes a great deal of bravery to stand
-												up to our enemies but just as much to stand up to our friends You sort of start
-												thinking anythings possible if youve got enough nerve I think Ill just go and have
-												some pudding It matters not what someone is born but what they grow to be Hermione
-												Granger Yer a wizard Harry Yer a wizard Harry.
+												Nerd Nook is a site that allows future and fellow nerds to interact with one another
+												in the preferred area of interest. From Cosplay to Dungeons & Gragons, this site allows
+												nerds to allow their inner nerd to shine bright.
 											</p>
 											<a href="https://bootcamp-coders.cnm.edu/~cryan17/nerd-nook/epic/" class="btn btn-primary">Go to the Nook</a>
 										</div>
