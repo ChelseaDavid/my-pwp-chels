@@ -1,5 +1,5 @@
 #welcome {
-	margin-top: 15rem;
+	margin-top: 7rem;
 }
 
 .jumbotron {
@@ -54,9 +54,6 @@ textarea {
 	padding-top: 3rem;
 }
 
-#howdy {
-	margin: 1em;
-}
 
 /*Parallax background effects*/
 .parallax-content {
@@ -134,14 +131,6 @@ textarea {
 	background-repeat: no-repeat;
 	overflow: hidden;
 }
-
-#rc-imageselect, .g-recaptcha {
-	transform:scale(0.77);
-	-webkit-transform:scale(0.77);
-	transform-origin:0 0;
-	-webkit-transform-origin:0
-}
-
 
 /* xs to lg*/
 @media(min-width: 769px) {

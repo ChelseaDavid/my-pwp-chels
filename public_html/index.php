@@ -207,9 +207,27 @@
 				<div class="jumbotron bg-transparent text-left">
 					<h1>Contact Me</h1>
 					<h3 class="salutations text-center">I can't wait to see what we can accomplish together!</h3>
+		<!-- Contact Me section -->
+		<section class="p-5 solid mt-0" id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-8 col-lr-8">
+						<form id="contact-form" action="" method="post" novalidate>
+							<label>Name</label>
+							<input name="name" id="name" placeholder="Type Here">
+							<label>Email</label>
+							<input name="email" type="email" id="email" placeholder="Type Here">
+							<label>Message</label>
+							<textarea name="message" placeholder="Type Here"></textarea>
+							<input id="submit" name="submit" type="submit" value="Submit">
+						</form>
+					</div>
 				</div>
 			</div>
-		</div>
+			</div>
+			</div>
+			</div>
+		</section>
 			<!--	Constant Footer information	-->
 		<div class="footer bg-dark">
 			<a href="https://www.linkedin.com/in/chelseadavid36/">
