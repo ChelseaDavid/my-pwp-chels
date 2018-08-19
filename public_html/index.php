@@ -200,6 +200,16 @@
 				</div>
 			</div>
 		</section>
+
+		<!-- parallax fifth section -->
+		<div class="parallax-content parallax-content5">
+			<div class="parallax">
+				<div class="jumbotron bg-transparent text-left">
+					<h1>Contact Me</h1>
+					<h3 class="salutations text-center">I can't wait to see what we can accomplish together!</h3>
+				</div>
+			</div>
+		</div>
 			<!--	Constant Footer information	-->
 		<div class="footer bg-dark">
 			<a href="https://www.linkedin.com/in/chelseadavid36/">
