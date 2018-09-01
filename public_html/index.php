@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 	<head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -64,10 +64,10 @@
 			</nav>
 
 		<!--first parallax section -->
-		<section class="parallax-content"">
+		<section class="parallax-content">
 		<div class="parallax">
 			<div class="jumbotron bg-transparent text-center" id="welcome">
-				<h1>Thanks for Stopping by!</h1>
+				<h2>Thanks for Stopping by!</h2>
 			</div>
 		</div>
 		</section>
@@ -105,13 +105,13 @@
 		</div>
 
 		<!-- My Portfolio -->
-		<section class="p-5 solid mt-0" id="portfolio">
+		<section id="portfolio">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-xs-12 text-center">
 						<h2>Please take a moment to check out some of my work</h2>
 						<div class="container-fluid">
-							<section class="container-fluid">
+							<div class="container-fluid">
 								<div class="row justify-content-center">
 									<div class="card col-sm-3">
 										<img class="card-img-top" src="images/nn.png" alt="Nerd Nook">
@@ -125,10 +125,13 @@
 											<a href="https://bootcamp-coders.cnm.edu/~cryan17/nerd-nook/epic/" class="btn btn-primary">Go to the Nook</a>
 										</div>
 									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-		</section>
+				</section>
 
 		<!-- parallax third section -->
 		<div class="parallax-content parallax-content3">
@@ -139,7 +142,7 @@
 			</div>
 		</div>
 		<!-- Languages I know -->
-		<section class="p-5 solid mt-0" id="languages">
+		<section class="" id="languages">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-xs-12 text-center languages-icons">
@@ -159,6 +162,8 @@
 							<div class="row">
 								<div class="col-lg-12 m-3">
 									<img src="images/html5-brands.jpg" class="col-md-1" alt="html logo">
+									<i class="fab fa-angular"></i>
+									<i class="fab fa-css3-alt"></i>
 									<img src="images/css3-alt-brands.jpg" class="col-md-1" alt="css logo">
 									<img src="images/js.jpg" class="col-md-1" alt="javascript logo">
 									<img src="images/bootstrap.png" class="col-md-1" alt="bootstrap logo">
@@ -205,14 +210,16 @@
 		<div class="parallax-content parallax-content5">
 			<div class="parallax">
 				<div class="jumbotron bg-transparent text-left">
-					<h1>Contact Me</h1>
 					<h3 class="salutations text-center">I can't wait to see what we can accomplish together!</h3>
+				</div>
+			</div>
+		</div>
 		<!-- Contact Me section -->
-		<section class="p-5 solid mt-0" id="contact">
+		<section class="get-at-me" id="contact"><h2>Contact Me</h2>
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12 col-md-8 col-lr-8">
-						<form id="contact-form" action="" method="post" novalidate>
+						<form id="contact-form" action="#" method="post" novalidate>
 							<label>Name</label>
 							<input name="name" id="name" placeholder="Type Here">
 							<label>Email</label>
@@ -221,10 +228,7 @@
 							<textarea name="message" placeholder="Type Here"></textarea>
 							<input id="submit" name="submit" type="submit" value="Submit">
 						</form>
-					</div>
 				</div>
-			</div>
-			</div>
 			</div>
 			</div>
 		</section>
@@ -235,6 +239,6 @@
 			<a href="https://github.com/chelseadavid">
 				<img src="images/github-logo%20(2).png" alt="Github logo"></a>
 			<p class="goodbye">Thanks for stopping by!</p>
-		</div
+		</div>
 	</body>
 </html>

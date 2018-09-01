@@ -179,10 +179,6 @@ textarea {
 		background-image: url("../images/bright.jpg");
 	}
 
-	#howdy{
-		height: 20vh;
-		width: 20vh;
-	}
 }
 
 @media only screen and (max-width: 992px) {
@@ -191,7 +187,7 @@ textarea {
 	}
 }
 	.footer {
-		position: fixed;
+		position: sticky;
 		left: 0;
 		bottom: 0;
 		width: 100%;
