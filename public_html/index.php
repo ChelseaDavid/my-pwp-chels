@@ -24,9 +24,20 @@
 
 		<!-- java script link -->
 		<script src="scripts/script.js"></script>
+		<!-- form validate js -->
+		<script src="scripts/jquery-validate.js"></script>
+
+		<!-- jQuery Form, Additional Methods, Validate -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js" integrity="sha256-0Yg/eibVdKyxkuVo1Qwh0DspoUCHvSbm/oOoYVz32BQ=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js" integrity="sha256-F6h55Qw6sweK+t7SiOJX+2bpSAa3b/fnlrVCJvmEj1A=" crossorigin="anonymous"></script>
+
+		<!-- Google reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+
+
 	</head>
 	<body>
-
 		<!--NavBar-->
 		<nav class="navbar fixed-top navbar-default navbar-expand-md navbar-light bg-light" id="top-of-page">
 				<a class="navbar-brand" href="index.php">Chelsea David</a>
@@ -226,7 +237,10 @@
 							<input name="email" type="email" id="email" placeholder="Type Here">
 							<label>Message</label>
 							<textarea name="message" placeholder="Type Here"></textarea>
-							<input id="submit" name="submit" type="submit" value="Submit">
+<!--							<input id="submit" name="submit" type="submit" value="Submit">-->
+							<div class="g-recaptcha" data-sitekey="6Lf_ZVwUAAAAABkUXBI61Cs7Lxv2FviDufAeIHnE"></div>
+							<button class="btn btn-default" type="submit">Submit</button>
+							<button class="btn btn-default" type="reset">Reset</button>
 						</form>
 				</div>
 			</div>
