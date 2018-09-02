@@ -24,20 +24,9 @@
 
 		<!-- java script link -->
 		<script src="scripts/script.js"></script>
-		<!-- form validate js -->
-		<script src="scripts/jquery-validate.js"></script>
-
-		<!-- jQuery Form, Additional Methods, Validate -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA=" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js" integrity="sha256-0Yg/eibVdKyxkuVo1Qwh0DspoUCHvSbm/oOoYVz32BQ=" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js" integrity="sha256-F6h55Qw6sweK+t7SiOJX+2bpSAa3b/fnlrVCJvmEj1A=" crossorigin="anonymous"></script>
-
-		<!-- Google reCAPTCHA -->
-		<script src='https://www.google.com/recaptcha/api.js'></script>
-
-
 	</head>
 	<body>
+
 		<!--NavBar-->
 		<nav class="navbar fixed-top navbar-default navbar-expand-md navbar-light bg-light" id="top-of-page">
 				<a class="navbar-brand" href="index.php">Chelsea David</a>
@@ -117,12 +106,12 @@
 
 		<!-- My Portfolio -->
 		<section id="portfolio">
-			<div class="container-fluid">
+			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 text-center">
 						<h2>Please take a moment to check out some of my work</h2>
-						<div class="container-fluid">
-							<div class="container-fluid">
+						<div class="container">
+							<div class="container">
 								<div class="row justify-content-center">
 									<div class="card col-sm-3">
 										<img class="card-img-top" src="images/nn.png" alt="Nerd Nook">
@@ -154,30 +143,27 @@
 		</div>
 		<!-- Languages I know -->
 		<section class="" id="languages">
-			<div class="container-fluid">
+			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 text-center languages-icons">
 						<h2>Operating on Linux, the technologies I have used are...</h2>
 						<div class="container-fluid">
 							<div class="row">
 								<div class="col-lg-12 m-3">
-
-									<img src="images/angular-brands%20(1).jpg" class="col-md-1 col-lg-1" alt="angular logo">
-									<img src="images/mysql.png" class="col-md-1 col-lg-1" alt="mysql logo">
-									<img src="images/php.png" class="col-md-1 col-lg-1" alt="php logo">
+									<i class="fab fa-angular fa-2x"></i>
+									<i class="fab fa-php fa-2x"></i>
 
 								</div>
 							</div>
 						</div>
-						<div class="container-fluid">
+						<div class="container">
 							<div class="row">
 								<div class="col-lg-12 m-3">
-									<img src="images/html5-brands.jpg" class="col-md-1" alt="html logo">
-									<i class="fab fa-angular"></i>
-									<i class="fab fa-css3-alt"></i>
-									<img src="images/css3-alt-brands.jpg" class="col-md-1" alt="css logo">
-									<img src="images/js.jpg" class="col-md-1" alt="javascript logo">
-									<img src="images/bootstrap.png" class="col-md-1" alt="bootstrap logo">
+									<i class="fab fa-html5 fa-2x"></i>
+									<i class="fab fa-css3-alt fa-2x"></i>
+									<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANASURBVGhD7ZhZyA5RGIA/+75kvbBlCSlluVGKFGWJkl1RkuWKuEFJQhSRlEQSIUtIWcpeLnCBC9wjJdxQIjvPM/MdTV/f/P4sNV/OU0/fmTPvPzPvOXOW+UuRSCQS+d9ojA3SYu3SGa/hDdyB7bEm6YU7sSHOwtt4ETdib6wpNuDotJjQFCfgdVyFjbAmaIIn0V7xVVuM4rhZgWexnRW1wBKckhZL/cu/gfHoGGqZHBWcFngoLVZlJh5Li8VnJdr6eezHuWmx2LieHEmLVemI99CxVGja4ta0mMsunJoWi4tT8LS0mEsfvJUWi8skdIy4jrg45nEcx6bFYjIMl+JsfIWtsRqD8Q52TY4KiIPdKXg7rsdNmIcr/2l0f9bGiqIxBt1EOkOtxoFYF/3wIA5JjgqMibmFycNeHIpucbL7tWTH2S0t5tIdfxVTDR9oEA6vcAAGvH/leQ1rRwf02DjH1DPcjHPQ50o4h9/xKy60ogp29zc0bo8V9cSbvUdvfLdCV2xb9jJ63WzMw3LdY7QRXNk9PopuKg/gbnQN+okJGPQan6PTYJZO6MO8ReOeYH2w9Yx3Jqq8ZmAkGvMITSrLFvTcXswmErDuPP7sEQN0W/l3HmZZi9Y7q/j7FH0wu9opMYubQOttRc8Zb+vm4RpijA9USTjnw1dLREzejWUyZRugPfEz+rUW8IHtJXukLxpnIsaGcpbw8A/QGegdfsTJGN57Z5qwVvxpIoFkLBmgcgItj0iOSqX56LHd60eO5fomIs4sjgUXsvD++wrbMF77byWSYICKCWT/4D46hpy3fyeRakxEY/xo+meJiK+Wr4NTm/V+csrfSmQUGnMT3WNZvoTSCt1P6XT0nFt8x4HlOj+yDNDADPT4Q/nXmUWyiTTDl2jCtla4+SI0xkQcB6E+OA4PozFuRZxxvM8nXIDGXEDPvyn/rkHXnC/4At2TVV432QlcKRtwnl6H/ntmuRVlbC3jQvc6vTrT+VqEa9ibIRHPh/qstqrJB5wAHIOuJyHmKpqcyfRAcQXfh9m44DL8LZpjZavY2i5SJnIK/xQ3iD6kC7BvwD+hC1a2ip5B/ydl70UikUgkEolEIpFIPqXSD6gm779dkSlMAAAAAElFTkSuQmCC">
+									<i class="fab fa-js-square fa-2x"></i>
+									<i class="fab fa-linux fa-2x"></i>
 								</div>
 							</div>
 						</div>
@@ -237,10 +223,7 @@
 							<input name="email" type="email" id="email" placeholder="Type Here">
 							<label>Message</label>
 							<textarea name="message" placeholder="Type Here"></textarea>
-<!--							<input id="submit" name="submit" type="submit" value="Submit">-->
-							<div class="g-recaptcha" data-sitekey="6Lf_ZVwUAAAAABkUXBI61Cs7Lxv2FviDufAeIHnE"></div>
-							<button class="btn btn-default" type="submit">Submit</button>
-							<button class="btn btn-default" type="reset">Reset</button>
+							<input id="submit" name="submit" type="submit" value="Submit">
 						</form>
 				</div>
 			</div>

@@ -70,7 +70,7 @@ textarea {
 .parallax-content2 {
 	position: relative;
 	overflow: hidden;
-	height: 80vh;
+	height: 50vh;
 	-webkit-background-size: cover;
 	background-size: 100% 100%;
 	background-attachment: fixed;
@@ -81,7 +81,7 @@ textarea {
 .parallax-content3 {
 	position: relative;
 	overflow: hidden;
-	height: 80vh;
+	height: 50vh;
 	-webkit-background-size: cover;
 	background-size: 100% 100%;
 	background-attachment: fixed;
@@ -91,7 +91,7 @@ textarea {
 .parallax-content4 {
 	position: relative;
 	overflow: hidden;
-	height: 80vh;
+	height: 50vh;
 	-webkit-background-size: cover;
 	background-size: 100% 100%;
 	background-attachment: fixed;
@@ -102,7 +102,7 @@ textarea {
 .parallax-content5 {
 	position: relative;
 	overflow: hidden;
-	height: 80vh;
+	height: 50vh;
 	-webkit-background-size: cover;
 	background-size: 100% 100%;
 	background-attachment: fixed;
