@@ -1,0 +1,9 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^ChelseaDavidDesigns.com$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.ChelseaDavidDesigns.com$
+RewriteCond %{REQUEST_URI} !public_html/
+RewriteRule (.*) /public_html/$1 [L]
+
+# this forces SSL connection
+RewriteCond %{HTTPS} !=on
+RewriteRule (.*) https://ChelseaDavidDesigns.com/$1 [L]

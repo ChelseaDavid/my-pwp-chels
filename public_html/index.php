@@ -210,94 +210,32 @@
 			</div>
 		</div>
 
-					<!--
-			Begin Sample Contact Form
 
-			Create your own contact form.
-			Do not copy and paste this one.
-			-->
-
-		<form id="chelseas-contact-form" action="php/mailer.php" method="post">
-			<div class="form-group">
-				<label for="contactChelseaName"> Name <span class="text-danger">*</span></label>
-				<div class="input-group">
-					<div class="input-group-prepend">
-						<span class="input-group-text"></span>
-						<i class="fa fa-user" aria-hidden="true"></i>
-					</div>
-					<input type="text" class="form-control" id="contactChelseaName" name="contactChelseaName" placeholder="Name">
+		<!-- Contact Me section -->
+		<section class="get-at-me" id="contact"><h2>Contact Me</h2>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-8 col-lr-8">
+						<form id="contact-form" action="php/mailer.php" method="post">
+							<label>Name</label>
+							<input name="name" id="name" placeholder="Type Here">
+							<label>Email</label>
+							<input name="email" type="email" id="email" placeholder="Type Here">
+							<label>Message</label>
+							<textarea name="message" placeholder="Type Here"></textarea>
+							<div class="g-recaptcha" data-sitekey="6Lc5UW4UAAAAABkE5xTgGK-TY3RsdN0TqysNj7hZ"></div>
+							<input id="submit" name="submit" type="submit" value="Submit">
+						</form>
 				</div>
 			</div>
-			<div class="form-group">
-				<label for="contactChelseaEmail">Email<span class="text-danger">*</span></label>
-				<div class="input-group">
-					<div class="input-group-prepend">
-						<span class="input-group-text"></span>
-						<i class="fa fa-envelope" aria-hidden="true"></i>
-					</div>
-					<input type="email" class="form-control" id="contactChelseaEmail" name="contactChelseaEmail" placeholder="Email">
+			</div>
+			<!--empty area for form error/success output-->
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="output-area"></div>
 				</div>
 			</div>
-			<div class="form-group">
-				<label for="contactChelseaSubject">Subject</label>
-				<div class="input-group">
-					<div class="input-group-prepend">
-						<span class="input-group-text"></span>
-						<i class="fa fa-pencil" aria-hidden="true"></i>
-					</div>
-					<input type="text" class="form-control" id="contactChelseaSubject" name="contactChelseaSubject" placeholder="Subject">
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="contactChelseaMessage">Subject</label>
-				<div class="input-group">
-					<div class="input-group-prepend">
-						<span class="input-group-text"></span>
-						<i class="fa fa-comment" aria-hidden="true"></i>
-					</div>
-					<input type="text" class="form-control" id="contactChelseaMessage" name="contactChelseaMessage" placeholder="Message">
-				</div>
-			</div>
-
-			<!-- reCAPTCHA -->
-			<div class="g-recaptcha" data-sitekey="6Ld_TW4UAAAAAO5UpymIR-qbLUCLCtW1beGs9Zbp"></div>
-
-			<button class="btn btn-dark" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-			<button class="btn btn-dark" type="reset"><i class="fa fa-ban"></i> Reset</button>
-		</form>
-
-		<!--empty area for form error/success output-->
-		<div class="row">
-			<div class="col-xs-12">
-				<div id="output-area"></div>
-			</div>
-		</div>
-		</form>
-<!--		<!-- Contact Me section -->
-<!--		<section class="get-at-me" id="contact"><h2>Contact Me</h2>-->
-<!--			<div class="container">-->
-<!--				<div class="row">-->
-<!--					<div class="col-sm-12 col-md-8 col-lr-8">-->
-<!--						<form id="contact-form" action="php/mailer.php" method="post" novalidate>-->
-<!--							<label>Name</label>-->
-<!--							<input name="name" id="name" placeholder="Type Here">-->
-<!--							<label>Email</label>-->
-<!--							<input name="email" type="email" id="email" placeholder="Type Here">-->
-<!--							<label>Message</label>-->
-<!--							<textarea name="message" placeholder="Type Here"></textarea>-->
-<!--							<div class="g-recaptcha" data-sitekey="6Ld_TW4UAAAAAO5UpymIR-qbLUCLCtW1beGs9Zbp"></div>-->
-<!--							<input id="submit" name="submit" type="submit" value="Submit">-->
-<!--						</form>-->
-<!--				</div>-->
-<!--			</div>-->
-<!--			</div>-->
-<!--			<!--empty area for form error/success output-->-->
-<!--			<div class="row">-->
-<!--				<div class="col-xs-12">-->
-<!--					<div id="output-area"></div>-->
-<!--				</div>-->
-<!--			</div>-->
-<!--		</section>-->
+		</section>
 			<!--	Constant Footer information	-->
 		<div class="footer bg-dark">
 			<a href="https://www.linkedin.com/in/chelseadavid36/">
