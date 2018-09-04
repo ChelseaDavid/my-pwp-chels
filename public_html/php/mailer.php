@@ -6,7 +6,7 @@
  * This file handles secure mail transport using the Swiftmailer
  * library with Google reCAPTCHA integration.
  *
- * @author Rochelle Lewis <cryan17@cnm.edu>
+ * @author Chelsea David <cryan17@cnm.edu>
  **/
 // require all composer dependencies
 require_once(dirname(__DIR__, 2) . "/vendor/autoload.php");
@@ -42,30 +42,19 @@ try {
 	 **/
 	$recipients = $MAIL_RECIPIENTS;
 	$swiftMessage->setTo($recipients);
+
+
 	// attach the subject line to the message
 	$swiftMessage->setSubject($subject);
 	/**
 	 * Attach the actual message to the message. duh
 	 *
-	 * Sets two versions of the message: the HTML formatted message and a
-	 * special filter_var()'d version of the message that generates a plain text
-	 * version of the HTML content.
-	 *
 	 **/
 	$swiftMessage->setBody($message, "text/html");
 	$swiftMessage->addPart(html_entity_decode($message), "text/plain");
 	/**
-	 * Send the Email via SMTP. The SMTP server here is configured to relay
-	 * everything upstream via your web host.
-	 *
-	 * This default may or may not be available on all web hosts;
-	 * consult their documentation/support for details.
-	 *
-	 * SwiftMailer supports many different transport methods; SMTP was chosen
-	 * because it's the most compatible and has the best error handling.
-	 *
-	 * @see http://swiftmailer.org/docs/sending.html Sending Messages - Documentation - SwitftMailer
-	 **/
+	 * Send the Email via SMTP.
+	 * */
 	$smtp = new Swift_SmtpTransport("localhost", 25);
 	$mailer = new Swift_Mailer($smtp);
 	$numSent = $mailer->send($swiftMessage, $failedRecipients);
@@ -78,7 +67,7 @@ try {
 		throw(new RuntimeException("unable to send email"));
 	}
 	// report a successful send!
-	echo "<div class=\"alert alert-success\" role=\"alert\">Email successfully sent.</div>";
+	echo "<div class=\"alert alert-success\" role=\"alert\">Email successfully sent. Chelsea will get back to you soon.</div>";
 } catch(Exception $exception) {
-	echo "<div class=\"alert alert-danger\" role=\"alert\"><strong>Oh snap!</strong> Unable to send email: " . $exception->getMessage() . "</div>";
+	echo "<div class=\"alert alert-danger\" role=\"alert\"><strong>Oh No!</strong> Something went wrong. Unable to send email: " . $exception->getMessage() . "</div>";
 }
